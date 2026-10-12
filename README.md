@@ -1,9 +1,12 @@
 # Non-Tech Digital Products
 
-Reviewable versions of three digital products targeted at non-tech users.
+Produk digital siap jual untuk pengguna non-tech.
 
-- [Caregiver Binder](caregiver-binder.html)
-- [AI Email Helper](ai-email-helper.html)
-- [Family Budget Tracker](family-budget.html)
+## Produk
+1. **Caregiver Binder** - PDF + preview
+2. **AI Email & Message Helper** - Prompt pack
+3. **Family Budget Tracker** - Excel spreadsheet
 
-These are simplified HTML versions for review. Final products will be PDF, Google Sheets, Canva templates, etc.
+Live preview: https://non-tech-digital-products.pages.dev
+
+File produk ada di folder `products/`.

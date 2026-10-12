@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Family Budget Tracker</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; }
+    h1, h2 { color: #2e7d32; }
+    .dashboard { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; }
+    .card { background: #f1f8e9; padding: 15px; border-radius: 8px; text-align: center; }
+    table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+    th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+  </style>
+</head>
+<body>
+  <h1>Family Budget & Debt Tracker</h1>
+  <p><strong>Super Simple</strong> – untuk keluarga non-tech yang ingin mulai mengatur keuangan.</p>
+
+  <h2>Dashboard Utama</h2>
+  <div class="dashboard">
+    <div class="card"><strong>Pemasukan</strong><br>Rp ________</div>
+    <div class="card"><strong>Pengeluaran</strong><br>Rp ________</div>
+    <div class="card"><strong>Sisa</strong><br>Rp ________</div>
+    <div class="card"><strong>Total Utang</strong><br>Rp ________</div>
+  </div>
+
+  <h2>Monthly Budget</h2>
+  <table>
+    <tr><th>Kategori</th><th>Rencana</th><th>Aktual</th></tr>
+    <tr><td>Makan</td><td></td><td></td></tr>
+    <tr><td>Transport</td><td></td><td></td></tr>
+    <tr><td>Rumah</td><td></td><td></td></tr>
+    <tr><td>Anak</td><td></td><td></td></tr>
+  </table>
+
+  <h2>Debt Tracker</h2>
+  <table>
+    <tr><th>Nama Utang</th><th>Total</th><th>Cicilan</th><th>Sisa</th></tr>
+    <tr><td></td><td></td><td></td><td></td></tr>
+  </table>
+
+  <p><em>Ini versi preview HTML. Versi final berupa Google Sheets + Excel yang bisa langsung diisi.</em></p>
+</body>
+</html>
